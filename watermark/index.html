@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>水印</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script type="text/javascript">
+        (function(win, cfg) {
+            window.pageConfig = {
+                watermarkId: "waterMark",
+                canvasWidth:140,
+                canvasHeight:140,
+                message: 'jder',
+                contextFont:'15px Vedana',
+                contextColor:'rgba(158, 158, 158, 0.5)',
+                contextAlign:'right',
+                contextBaseline:'middle'
+            }
+            if (cfg) { for (var key in cfg) pageConfig[key] = cfg[key] }
+            win.pageConfig = pageConfig
+        })(window, window.pageConfig);
+    </script>
+  </head>
+  <body style="height: 1000px;">
+  </body>
+  <script type="text/javascript" src="./js/watermark.js"></script>
+</html>

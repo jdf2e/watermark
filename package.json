@@ -1,0 +1,22 @@
+{
+    "name": "jdf2e-watermark",
+    "version": "1.0.1",
+    "description": "水印",
+    "main": "lib/watermark.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jdf2e/watermark.git"
+    },
+    "keywords": [
+        "水印"
+    ],
+    "author": "zhuzhirong",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jdf2e/watermark/issues"
+    },
+    "homepage": "https://github.com/jdf2e/watermark#readme"
+}
